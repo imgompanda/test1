@@ -2,9 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [master] # main 브랜치에 푸시될 때 실행 (필요시 브랜치 이름 변경)
+    branches: [main] # Corrected branch name
   pull_request:
-    branches: [master] # main 브랜치로 Pull Request가 생성/업데이트될 때 실행
+    branches: [main] # Corrected branch name
 
 jobs:
   test:
@@ -38,7 +38,7 @@ jobs:
         with:
           api-level: 33 # 테스트할 API 레벨 (프로젝트 targetSdk에 맞춰 조정 가능)
           target: google_apis # Google API가 포함된 에뮬레이터 이미지
-          arch: aarch64 # 에뮬레이터 아키텍처
+          arch: arm64-v8a # Use the correct ARM architecture value supported by the action
           script: ./gradlew connectedCheck # UI 테스트 실행 명령어
 
 
