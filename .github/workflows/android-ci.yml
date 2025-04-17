@@ -2,9 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [main] # Corrected branch name
+    branches: [master] # Corrected branch name
   pull_request:
-    branches: [main] # Corrected branch name
+    branches: [master] # Corrected branch name
 
 jobs:
   test:
