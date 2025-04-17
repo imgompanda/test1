@@ -18,7 +18,7 @@
 
 - **compileSdk**: 34 (Android 14)
 - **minSdk**: 24 (Android 7.0 Nougat)
-- **targetSdk**: 34 (Android 14)
+- **targetSdk**: 34 Android 14
 - **앱 버전**: 1.0.0
 
 ## 주요 라이브러리
