@@ -35,7 +35,7 @@
 - **아키텍처**: MVVM (Model-View-ViewModel)
 - **상태 관리**: ViewModel, LiveData/Flow (계획됨)
 - **데이터 저장**: Room Database, SharedPreferences (계획됨)
-- **의존성 주입**: Hilt (계획됨)
+- **의존성 주입**: Hilt
 
 ## 핵심 기능 (계획됨)
 
