@@ -38,7 +38,7 @@ jobs:
         with:
           api-level: 33 # 테스트할 API 레벨 (프로젝트 targetSdk에 맞춰 조정 가능)
           target: google_apis # Google API가 포함된 에뮬레이터 이미지
-          arch: x86_64 # 에뮬레이터 아키텍처
+          arch: aarch64 # 에뮬레이터 아키텍처
           script: ./gradlew connectedCheck # UI 테스트 실행 명령어
 
 
