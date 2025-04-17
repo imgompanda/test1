@@ -27,7 +27,7 @@
 - **Material3**: 머티리얼 디자인 컴포넌트
 - **Navigation Compose**: 화면 간 네비게이션
 - **Activity Compose**: Compose 통합
-- **Material Icons Extended**: 추가 아이콘 세트
+- **Material Icons Extended**: 
 
 ## 기술 스택
 
