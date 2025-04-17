@@ -2,9 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [main] # main 브랜치에 푸시될 때 실행 (필요시 브랜치 이름 변경)
+    branches: [master] # main 브랜치에 푸시될 때 실행 (필요시 브랜치 이름 변경)
   pull_request:
-    branches: [main] # main 브랜치로 Pull Request가 생성/업데이트될 때 실행
+    branches: [master] # main 브랜치로 Pull Request가 생성/업데이트될 때 실행
 
 jobs:
   test:
