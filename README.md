@@ -14,7 +14,7 @@
 - **Compose Compiler**: 1.5.1
 - **Compose BOM**: 2024.06.00
 
-## 프로젝트 설정
+## 프로젝트 설정입니다.
 
 - **compileSdk**: 34 (Android 14)
 - **minSdk**: 24 (Android 7.0 Nougat)
@@ -27,7 +27,7 @@
 - **Material3**: 머티리얼 디자인 컴포넌트
 - **Navigation Compose**: 화면 간 네비게이션
 - **Activity Compose**: Compose 통합
-- **Material Icons Extended**: 
+- **Material Icons Extended**:
 
 ## 기술 스택
 
@@ -90,6 +90,6 @@ app/
 - 개발자: [박형우]
 - 이메일: [boroow051@gmail.com]
 
-
 123123
+
 - 개발 일자: 2025년 4월
